@@ -15,10 +15,10 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  name = #{key}
+  :key = #{key}
   
   my_hash_creator = {
-    :name => "#{value}"
+    :key => "#{value}"
   }
 end
 
