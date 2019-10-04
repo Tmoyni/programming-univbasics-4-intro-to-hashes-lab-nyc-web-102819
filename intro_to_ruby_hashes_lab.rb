@@ -16,10 +16,10 @@ end
 
 def my_hash_creator(key, value)
   my_hash_creator = {
-    :key => value
+    :#{key} => #{value}
   }
 end
-my_hash_creator
+my_hash_creator(key, value)
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
