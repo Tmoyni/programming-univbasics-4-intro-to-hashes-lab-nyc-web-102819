@@ -31,5 +31,8 @@ else
   hash["key"] = 1
 end
 end
-update_counting_hash
+if hash["key"]
+  hash["key"] += 1
+else
+  hash["key"] = 1
 end
